@@ -1117,7 +1117,26 @@ section {
 .soluciones .soluciones-item {
 	margin-bottom: 30px;
 }
-
+.soluciones .soluciones-item .soluciones-img {
+	width: 50%;
+}
+.soluciones ul {
+	list-style: none;
+}
+.soluciones ul li {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	margin-bottom: 5px;
+}
+.soluciones ul li i {
+	font-size: 20px;
+	padding: 3px;
+	color: #010351;
+}
+/* .soluciones ul li p {
+	margin-bottom: 0;
+} */
 .soluciones #soluciones-flters {
 	padding: 0;
 	margin: 0 auto 35px auto;
@@ -1155,7 +1174,7 @@ section {
 	overflow: hidden;
 	z-index: 1;
 }
-
+/* 
 .soluciones .soluciones-wrap::before {
 	content: "";
 	background: rgba(36, 135, 206, 0.6);
@@ -1167,7 +1186,7 @@ section {
 	transition: all ease-in-out 0.3s;
 	z-index: 2;
 	opacity: 0;
-}
+} */
 
 .soluciones .soluciones-wrap .soluciones-info {
 	opacity: 0;
