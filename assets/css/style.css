@@ -950,7 +950,17 @@ section {
 .services .iconbox-blue:hover .icon path {
 	fill: #47aeff;
 }
+.services .iconbox-green i {
+	color: #17b57d;
+}
 
+.services .iconbox-green:hover .icon i {
+	color: #fff;
+}
+
+.services .iconbox-green:hover .icon path {
+	fill: #17b57d;
+}
 .services .iconbox-orange i {
 	color: #ffa76e;
 }
@@ -975,6 +985,17 @@ section {
 	fill: #e80368;
 }
 
+.services .iconbox-lightpink i {
+	color: #e984b0;
+}
+
+.services .iconbox-lightpink:hover .icon i {
+	color: #fff;
+}
+
+.services .iconbox-lightpink:hover .icon path {
+	fill: #e984b0;
+}
 .services .iconbox-yellow i {
 	color: #ffbb2c;
 }
@@ -1405,6 +1426,9 @@ section {
 	padding: 0 0 0 60px;
 	margin-bottom: 0;
 	font-size: 14px;
+	color: #0205a1;
+}
+.contact .info a {
 	color: #0205a1;
 }
 
