@@ -711,25 +711,25 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About
+# clientes
 --------------------------------------------------------------*/
-.about {
+.clientes {
 	padding: 40px 0 0 0;
 	min-height: 550px;
 }
 
-.about .icon-boxes h3 {
+.clientes .icon-boxes h3 {
 	font-size: 28px;
 	font-weight: 700;
 	color: #010483;
 	margin-bottom: 15px;
 }
 
-.about .icon-box {
+.clientes .icon-box {
 	margin-top: 40px;
 }
 
-.about .icon-box .icon {
+.clientes .icon-box .icon {
 	float: left;
 	display: flex;
 	align-items: center;
@@ -741,49 +741,49 @@ section {
 	transition: 0.5s;
 }
 
-.about .icon-box .icon i {
+.clientes .icon-box .icon i {
 	color: #1acc8d;
 	font-size: 32px;
 }
 
-.about .icon-box:hover .icon {
+.clientes .icon-box:hover .icon {
 	background: #1acc8d;
 	border-color: #1acc8d;
 }
 
-.about .icon-box:hover .icon i {
+.clientes .icon-box:hover .icon i {
 	color: #fff;
 }
 
-.about .icon-box .title {
+.clientes .icon-box .title {
 	margin-left: 85px;
 	font-weight: 700;
 	margin-bottom: 10px;
 	font-size: 18px;
 }
 
-.about .icon-box .title a {
+.clientes .icon-box .title a {
 	color: #343a40;
 	transition: 0.3s;
 }
 
-.about .icon-box .title a:hover {
+.clientes .icon-box .title a:hover {
 	color: #1acc8d;
 }
 
-.about .icon-box .description {
+.clientes .icon-box .description {
 	margin-left: 85px;
 	line-height: 24px;
 	font-size: 14px;
 }
 
-.about .video-box {
+.clientes .video-box {
 	background: url("../img/details-2.png") center center no-repeat;
 	background-size: contain;
 	min-height: 400px;
 }
 
-.about .play-btn {
+.clientes .play-btn {
 	width: 94px;
 	height: 94px;
 	background: radial-gradient(#3f43fd 50%, rgba(63, 67, 253, 0.4) 52%);
@@ -795,7 +795,7 @@ section {
 	overflow: hidden;
 }
 
-.about .play-btn::after {
+.clientes .play-btn::after {
 	content: "";
 	position: absolute;
 	left: 50%;
@@ -810,7 +810,7 @@ section {
 	transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
-.about .play-btn::before {
+.clientes .play-btn::before {
 	content: "";
 	position: absolute;
 	width: 120px;
@@ -833,12 +833,12 @@ section {
 	background: rgba(198, 16, 0, 0);
 }
 
-.about .play-btn:hover::after {
+.clientes .play-btn:hover::after {
 	border-left: 15px solid #3f43fd;
 	transform: scale(20);
 }
 
-.about .play-btn:hover::before {
+.clientes .play-btn:hover::before {
 	content: "";
 	position: absolute;
 	left: 50%;
@@ -1114,15 +1114,29 @@ section {
 /*--------------------------------------------------------------
 # soluciones
 --------------------------------------------------------------*/
-.soluciones .soluciones-item {
-	margin-bottom: 30px;
-}
+
 .soluciones .soluciones-item .soluciones-img {
 	width: 50%;
 }
 .soluciones ul {
 	list-style: none;
+	padding: 0;
 }
+.soluciones h3 {
+	font-size: 28px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: "Poppins", sans-serif;
+	color: #010483;
+	margin: 20px 0;
+}
+.soluciones h6 {
+	color: #01036f;
+	text-decoration: underline;
+	padding-bottom: 5px;
+	margin-top: 10px;
+}
+
 .soluciones ul li {
 	display: flex;
 	align-items: flex-start;
@@ -1130,13 +1144,14 @@ section {
 	margin-bottom: 5px;
 }
 .soluciones ul li i {
-	font-size: 20px;
-	padding: 3px;
-	color: #010351;
+	font-size: 25px;
+	padding-right: 3px;
+	color: #010483;
 }
-/* .soluciones ul li p {
-	margin-bottom: 0;
-} */
+.soluciones ul li p {
+	font-size: 15px;
+	margin-bottom: 0px;
+}
 .soluciones #soluciones-flters {
 	padding: 0;
 	margin: 0 auto 35px auto;
